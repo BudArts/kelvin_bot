@@ -24,8 +24,8 @@ logger = logging.getLogger(__name__)
 FIO, CLASS, CONSENT = range(3)
 
 # Токены из переменных окружения BotHost
-TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
+TOKEN = os.getenv('API_TOKEN')
+ADMIN_ID = 6387671865
 
 # Инициализация GigaChat
 GG = GigaChatIntegration()

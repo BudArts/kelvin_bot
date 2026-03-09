@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 class GigaChatIntegration:
     def __init__(self):
-        credentials = os.getenv('GIGACHAT_CREDENTIALS')
+        credentials = "YzNhMGVlNzYtYmNiNC00MTUyLWJkMjAtZGRlMjhkMzJkNzY5OjAyMWUwNjBhLTdkZTktNDY3Ni04NDEyLWZjZTlkYjM1NDI4OA=="
         if not credentials:
             raise ValueError("GIGACHAT_CREDENTIALS не установлен!")
         
