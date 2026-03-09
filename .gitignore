@@ -1,0 +1,26 @@
+# База данных
+data/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
